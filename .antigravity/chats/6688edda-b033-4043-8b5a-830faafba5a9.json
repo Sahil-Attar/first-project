@@ -3,7 +3,7 @@
   "name": "can you get my public project",
   "createdAt": "2026-11-12T05:43:17.160Z",
   "filename": "6688edda-b033-4043-8b5a-830faafba5a9.json",
-  "geminiStarted": false,
+  "geminiStarted": true,
   "messages": [
     {
       "id": "5cfd1d55-9671-43f8-a4e2-8dfb0635616c",
@@ -15,6 +15,42 @@
       "parent_message_id": null,
       "created_at": "2026-11-12T05:43:50.340Z",
       "sender": "ios",
+      "is_cancelled": false
+    },
+    {
+      "id": "d3c74ad5-3274-4ec8-9f45-f390c359af67",
+      "role": "agent",
+      "content": "To connect your project to GitHub, tap the **GitHub icon** at the top of the chat. Once you connect your GitHub account, your repository will be linked and your project history will be synced there automatically.",
+      "status": "completed",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "5cfd1d55-9671-43f8-a4e2-8dfb0635616c",
+      "created_at": "2026-11-12T05:44:01.769Z",
+      "sender": "macOS",
+      "is_cancelled": false
+    },
+    {
+      "id": "c4240398-8b72-4f7f-b550-d86feb71c5dc",
+      "role": "user",
+      "content": "ok",
+      "status": "pending",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-11-12T05:44:01.775Z",
+      "sender": "ios",
+      "is_cancelled": false
+    },
+    {
+      "id": "cf8993e4-f19f-49e5-8968-04f00cc20021",
+      "role": "agent",
+      "content": "Let me know whenever you're ready or if you'd like to make any changes to the project!",
+      "status": "completed",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "c4240398-8b72-4f7f-b550-d86feb71c5dc",
+      "created_at": "2026-11-12T05:44:09.334Z",
+      "sender": "macOS",
       "is_cancelled": false
     }
   ]
