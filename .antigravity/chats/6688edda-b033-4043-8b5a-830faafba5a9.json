@@ -52,6 +52,18 @@
       "created_at": "2026-11-12T05:44:09.334Z",
       "sender": "macOS",
       "is_cancelled": false
+    },
+    {
+      "id": "4af0347a-c71c-44d8-b3eb-9a74237e541b",
+      "role": "agent",
+      "content": "Your working directory changes have been stashed:\n\n```\nSaved working directory and index state WIP on main: 9735faf Work from the phone\n```\n\nYour changes are saved. To inspect or restore them later, you can use `git stash pop` or `git stash list`.",
+      "status": "completed",
+      "model": "gemini-3.8-flash-low",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "20d07630-5918-4ef1-ab36-2a16d932cc57",
+      "created_at": "2026-11-12T05:50:52.728Z",
+      "sender": "macOS",
+      "is_cancelled": false
     }
   ]
 }
